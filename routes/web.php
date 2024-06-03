@@ -34,7 +34,3 @@ Route::get('/', [PublicController::class, 'index'])->name('home');
 Route::get('/about', [PublicController::class, 'about'])->name('about');
 Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 
-
-
-
-// MVC - Model View Controller
