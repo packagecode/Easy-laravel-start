@@ -14,7 +14,7 @@ class PublicController extends Controller
 
     public function about()
     {
-        $name = 'John Doe Saiful';
+        $name = 'John Doe';
         $address = 'Dhaka, Bangladesh';
         return view('public.about', compact('name', 'address'));
     }
@@ -23,13 +23,4 @@ class PublicController extends Controller
     {
         return view('public.contact');
     }
-
-
-    // OOP - Object Oriented Programming
-
-    // Class and Object
-    // Encapsulation
-    // Inheritance
-    // Polymorphism
-    // Abstraction
 }
